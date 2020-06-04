@@ -1,9 +1,13 @@
 import React from "react";
 
+import Homepage from './pages/homepage/homepage.component'
+
+import './App.css'
+
 const App = () => {
   return (
     <div>
-      <h1>Initial Commit</h1>
+      <Homepage />
     </div>
   );
 };
